@@ -234,17 +234,38 @@ document.getElementById("IntroAnimation").src = my_arrayFurniture[riFurniture];
 document.getElementById("IntroAnimation").src = fileFurniture;
 var fileFurniture = my_arrayFurniture[riFurniture];
 
+var my_arrayJewellery = [
+
+" http://estore-uk.pandora.net/new/?src=categorySearch&postion=top  ",
+" http://www.goldsmiths.co.uk/c/Jewellery/  ",
+" http://www.marksandspencer.com/l/women/bags-and-accessories/jewellery?extid=ps_ggl_UK_Gen_Women_Jewellery_OnlineJewellery&kwid=49757530_Google+Adwords&s_kwcid=AL!2750!3!116468942185!e!!g!!jewellery%20online%20uk&device=c&ef_id=Vwld0QAABHDgF8gI:20161125201638:s  ",
+" http://www.hsamuel.co.uk/?&utm_medium=blar&cm_mmc=google-_-HS_Online_Jewellers-_-Jewellers-_-%2Bonline%20%2Bjewellers&rmatt=tsid:1014013|cid:11174224|agid:489235924|tid:kwd-21615268019|crid:162567484044|nw:g|rnd:12631155227541366211|dvc:c|adp:1t3&gclid=Cj0KEQiA39_BBRD0w-_rmOrc__8BEiQA-ETxXfICAq-KMRED69shX_Gwx63odq5oSBHs36PQRX6OTSAaAlo58P8HAQ ",
+" http://www.beaverbrooks.co.uk/jewellery/all ",
+" http://www.swarovski.com/Web_GB/en/91251/promotion/New_in.html  ",
+" https://www.zalando.co.uk/bags-accessories-womens-jewellery/?gclid=Cj0KEQiA39_BBRD0w-_rmOrc__8BEiQA-ETxXRreDZVUsGMkpzAPX_v0iUtIdOE7nBn8ClLiIdGgLAAaAmI98P8HAQ&wmc=SEM44_CR_EN_1891101.&atc=SEM44_EN_NAWBNARGNB_ZL.GO_DSA.&opc=2211  ",
+" http://www.chapelle.co.uk/  ",
+" http://www.tiffany.co.uk/jewelry  ",
+" https://www.thediamondstore.co.uk/  ",
+" https://www.thejewelhut.co.uk/  "
+
+];
+var riJewellery = Math.floor(Math.random() * my_arrayJewellery.length); // Random Index position in the array
+document.getElementById("IntroAnimation").src = my_arrayJewellery[riJewellery];
+document.getElementById("IntroAnimation").src = fileJewellery;
+var fileJewellery = my_arrayJewellery[riJewellery];
 
 
 
 </script>
   <p>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileJewellery);window.location.reload()" placeholder="Jewellery">
     <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
   </p>
   <p>The High Street. Online.</p>
   <p>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileJewellery);window.location.reload()" placeholder="Jewellery">
     <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
   </p>
 </body>
