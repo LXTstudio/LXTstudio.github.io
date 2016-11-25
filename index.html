@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html> 
+<head>
   <title>TheHighStreet.Online</title>
   <style type="text/css">
     body {
@@ -29,12 +30,18 @@
     }
   </style>
 </head>
+
 <body>
- <div>
+
+<div>
 <script id="IntroAnimation" type="text/javascript" charset="utf-8" src=""></script>
 </div>
+
 <script type="text/javascript">
-var my_arrayWomanswear = [" http://www.adolfodominguez.com/uk/woman/moods/landscape/  ",
+
+var my_arrayWomanswear = [
+
+" http://www.adolfodominguez.com/uk/woman/moods/landscape/  ",
 " http://www.agnesb.co.uk/women/collection/new-arrivals ",
 " http://www.aldoshoes.com/uk/en_UK/women/new-arrivals/c/101  ",
 " http://www.alexanderwang.com/gb/shop/women/new-arrivals ",
@@ -203,11 +210,30 @@ var my_arrayWomanswear = [" http://www.adolfodominguez.com/uk/woman/moods/landsc
 " http://www.whitestuff.com/new-in/womens-new-in/?page=1  ",
 " http://www.yumi.co.uk/women/  ",
 " https://www.zalando.co.uk/women/?activation_date=0-7  ",
-" http://www.zara.com/uk/en/woman/new-in-c840002.html "];
+" http://www.zara.com/uk/en/woman/new-in-c840002.html "
+
+];
 var ri = Math.floor(Math.random() * my_arrayWomanswear.length); // Random Index position in the array
 document.getElementById("IntroAnimation").src = my_arrayWomanswear[ri];
 document.getElementById("IntroAnimation").src = fileWomanswear;
 var fileWomanswear = my_arrayWomanswear[ri];
+
+var my_arrayFurniture = [
+
+" http://www.made.com/new-in  ",
+" http://www.worldstores.co.uk/ ",
+" http://www.chilternoakfurniture.co.uk/?gclid=Cj0KEQiA39_BBRD0w-_rmOrc__8BEiQA-ETxXX2BnytNMjikiYNc9Klw3sd_tlH2TgxSPrCeemvsCUYaAiCG8P8HAQ ",
+" http://www.habitat.co.uk/ "
+
+];
+var ri = Math.floor(Math.random() * my_arrayFurniture.length); // Random Index position in the array
+document.getElementById("IntroAnimation").src = my_arrayFurniture[ri];
+document.getElementById("IntroAnimation").src = fileFurniture;
+var fileFurniture = my_arrayFurniture[ri];
+
+
+
+
 </script>
   <p>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
