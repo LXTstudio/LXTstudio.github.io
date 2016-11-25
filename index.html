@@ -34,7 +34,7 @@
 <script id="IntroAnimation" type="text/javascript" charset="utf-8" src=""></script>
 </div>
 <script type="text/javascript">
-var my_array = [" http://www.adolfodominguez.com/uk/woman/moods/landscape/  ",
+var my_arrayWomanswear = [" http://www.adolfodominguez.com/uk/woman/moods/landscape/  ",
 " http://www.agnesb.co.uk/women/collection/new-arrivals ",
 " http://www.aldoshoes.com/uk/en_UK/women/new-arrivals/c/101  ",
 " http://www.alexanderwang.com/gb/shop/women/new-arrivals ",
@@ -204,17 +204,19 @@ var my_array = [" http://www.adolfodominguez.com/uk/woman/moods/landscape/  ",
 " http://www.yumi.co.uk/women/  ",
 " https://www.zalando.co.uk/women/?activation_date=0-7  ",
 " http://www.zara.com/uk/en/woman/new-in-c840002.html "];
-var ri = Math.floor(Math.random() * my_array.length); // Random Index position in the array
-document.getElementById("IntroAnimation").src = my_array[ri];
-document.getElementById("IntroAnimation").src = file;
-var file = my_array[ri];
+var ri = Math.floor(Math.random() * my_arrayWomanswear.length); // Random Index position in the array
+document.getElementById("IntroAnimation").src = my_arrayWomanswear[ri];
+document.getElementById("IntroAnimation").src = fileWomanswear;
+var fileWomanswear = my_arrayWomanswear[ri];
 </script>
   <p>
-  <input onclick="window.open(file);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
   </p>
-  <p>The High Street. Online</p>
+  <p>The High Street. Online.</p>
   <p>
-  <input onclick="window.open(file);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
   </p>
 </body>
 </html>
