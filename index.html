@@ -14,9 +14,9 @@
       text-shadow: 2px 2px gray;
     }
     h1 {
-      font-size: 15px;
-      color: black;
-      background: white;
+      font-size: 20px;
+      color: white;
+      background: none;
     }
     h2 {
       font-size: 150px;
@@ -24,19 +24,19 @@
       background: none;
     }
     h3 {
-      font-size: 15px;
-      color: black;
-      background: white;
+      font-size: 20px;
+      color: white;
+      background: none;
     }
     input {
       border: 10;
       padding: 10px;
-      font-size: 15px;
+      font-size: 20px;
       text-align: center;
     }
     input[type="button"] {
-      color: white;
-      background: white;
+      color: none;
+      background: none;
     }
   </style>
 </head>
@@ -276,7 +276,7 @@ var my_arrayMenswear = [
 " http://www.mandmdirect.com/01/mens  "
 
 ];
-var riMenswear = Math.floor(Math.random() * my_arrayMenswear.length); // Random Index position in the array
+var riMenswear = Math.floor(Math.random() * my_arrayMenswear.length);
 document.getElementById("IntroAnimation").src = my_arrayMenswear[riMenswear];
 document.getElementById("IntroAnimation").src = fileMenswear;
 var fileMenswear = my_arrayMenswear[riMenswear];
