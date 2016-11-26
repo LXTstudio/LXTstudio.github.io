@@ -15,8 +15,8 @@
     }
     h1 {
       font-size: 15px;
-      color: gray;
-      background: black;
+      color: black;
+      background: white;
     }
     h2 {
       font-size: 150px;
@@ -25,8 +25,8 @@
     }
     h3 {
       font-size: 15px;
-      color: gray;
-      background: black;
+      color: black;
+      background: white;
     }
     input {
       border: 10;
@@ -232,7 +232,7 @@ var my_arrayWomanswear = [
 " http://www.zara.com/uk/en/woman/new-in-c840002.html "
 
 ];
-var riWomanswear = Math.floor(Math.random() * my_arrayWomanswear.length); // Random Index position in the array
+var riWomanswear = Math.floor(Math.random() * my_arrayWomanswear.length); 
 document.getElementById("IntroAnimation").src = my_arrayWomanswear[riWomanswear];
 document.getElementById("IntroAnimation").src = fileWomanswear;
 var fileWomanswear = my_arrayWomanswear[riWomanswear];
@@ -254,10 +254,10 @@ var my_arrayWomensShoes = [
 " http://www.very.co.uk/women/shoes-boots/e/b/1665.end  "
 
 ];
-var riMWomensShoes = Math.floor(Math.random() * my_arrayWomensShoes.length); // Random Index position in the array
+var riWomensShoes = Math.floor(Math.random() * my_arrayWomensShoes.length); 
 document.getElementById("IntroAnimation").src = my_arrayWomensShoes[riMWomensShoes];
 document.getElementById("IntroAnimation").src = fileWomensShoes;
-var fileWomensShoes = my_arrayWomenShoes[riMWomensShoes];
+var fileWomensShoes = my_arrayWomensShoes[riMWomensShoes];
 
 
 
@@ -458,7 +458,9 @@ var fileGifts = my_arrayGifts[riGifts];
     <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
     <input onclick="window.open(fileGifts);window.location.reload()" placeholder="Gifts">
   </h1>
+
   <h2>The High Street. Online.</h2>
+  
   <h3>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
     <input onclick="window.open(fileWomensShoes);window.location.reload()" placeholder="Women's Shoes">
