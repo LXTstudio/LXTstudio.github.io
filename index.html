@@ -14,7 +14,7 @@
       text-shadow: 2px 2px gray;
     }
 
-    p {
+    h1 {
       font-size: 15px;
       color: white;
       background: none;
@@ -26,22 +26,22 @@
       background: none;
     }
 
-    /*h3 {
+    h3 {
       font-size: 15px;
       color: white;
       background: none;
-    }*/
+    }
 
     input {
-      border: 20;
+      border: 10;
       padding: 20px;
       font-size: 15px;
       text-align: center;
     }
 
     input[type="button"] {
-      color: none;
-      background: none;
+      color: white;
+      background: white;
     }
 
   </style>
@@ -336,7 +336,7 @@ var my_arrayFurniture = [
 " http://www.milandirect.co.uk/home-furniture/new-arrivals  "
 
 ];
-var riFurniture = Math.floor(Math.random() * my_arrayFurniture.length); // Random Index position in the array
+var riFurniture = Math.floor(Math.random() * my_arrayFurniture.length);
 document.getElementById("IntroAnimation").src = my_arrayFurniture[riFurniture];
 document.getElementById("IntroAnimation").src = fileFurniture;
 var fileFurniture = my_arrayFurniture[riFurniture];
@@ -389,7 +389,7 @@ var my_arrayJewellery = [
 " http://www.tsjewellerymanchester.co.uk/new-arrivals/  "
 
 ];
-var riJewellery = Math.floor(Math.random() * my_arrayJewellery.length); // Random Index position in the array
+var riJewellery = Math.floor(Math.random() * my_arrayJewellery.length);
 document.getElementById("IntroAnimation").src = my_arrayJewellery[riJewellery];
 document.getElementById("IntroAnimation").src = fileJewellery;
 var fileJewellery = my_arrayJewellery[riJewellery];
@@ -443,7 +443,7 @@ var my_arrayGifts = [
 " http://www.red5.co.uk/  "
 
 ];
-var riGifts = Math.floor(Math.random() * my_arrayGifts.length); // Random Index position in the array
+var riGifts = Math.floor(Math.random() * my_arrayGifts.length); 
 document.getElementById("IntroAnimation").src = my_arrayGifts[riGifts];
 document.getElementById("IntroAnimation").src = fileGifts;
 var fileGifts = my_arrayGifts[riGifts];
@@ -451,7 +451,7 @@ var fileGifts = my_arrayGifts[riGifts];
 
 
 
-</script>
+
   
 
 
@@ -478,6 +478,6 @@ var fileGifts = my_arrayGifts[riGifts];
 
 
 
-
+</script>
 </body>
 </html>
