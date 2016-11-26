@@ -230,6 +230,40 @@ var fileWomanswear = my_arrayWomanswear[riWomanswear];
 
 
 
+var my_arrayMenswear = [
+
+" http://www.made.com/new-in  ",
+" http://www.worldstores.co.uk/ ",
+" http://www.chilternoakfurniture.co.uk/?gclid=Cj0KEQiA39_BBRD0w-_rmOrc__8BEiQA-ETxXX2BnytNMjikiYNc9Klw3sd_tlH2TgxSPrCeemvsCUYaAiCG8P8HAQ ",
+" http://www.habitat.co.uk/ ",
+" http://www.maisonsdumonde.com/UK/en "
+
+];
+var riMenswear = Math.floor(Math.random() * my_arrayMenswear.length); // Random Index position in the array
+document.getElementById("IntroAnimation").src = my_arrayMenswear[riMenswear];
+document.getElementById("IntroAnimation").src = fileMenswear;
+var fileMenswear = my_arrayMenswear[riMenswear];
+
+
+
+
+var my_arrayMenswear = [
+
+" http://www.made.com/new-in  ",
+" http://www.worldstores.co.uk/ ",
+" http://www.chilternoakfurniture.co.uk/?gclid=Cj0KEQiA39_BBRD0w-_rmOrc__8BEiQA-ETxXX2BnytNMjikiYNc9Klw3sd_tlH2TgxSPrCeemvsCUYaAiCG8P8HAQ ",
+" http://www.habitat.co.uk/ ",
+" http://www.maisonsdumonde.com/UK/en "
+
+];
+var riFurniture = Math.floor(Math.random() * my_arrayMenswear.length); // Random Index position in the array
+document.getElementById("IntroAnimation").src = my_arrayFurniture[riFurniture];
+document.getElementById("IntroAnimation").src = fileFurniture;
+var fileFurniture = my_arrayFurniture[riFurniture];
+
+
+
+
 var my_arrayFurniture = [
 
 " http://www.made.com/new-in  ",
@@ -398,6 +432,8 @@ var fileGifts = my_arrayGifts[riGifts];
 
   <p>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileWomansShoes);window.location.reload()" placeholder="Womans Shoes">
+    <input onclick="window.open(fileMenswear);window.location.reload()" placeholder="Menswear">
     <input onclick="window.open(fileJewellery);window.location.reload()" placeholder="Jewellery">
     <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
     <input onclick="window.open(fileGifts);window.location.reload()" placeholder="Gifts">
@@ -405,6 +441,8 @@ var fileGifts = my_arrayGifts[riGifts];
   <p>The High Street. Online.</p>
   <p>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
+    <input onclick="window.open(fileWomansShoes);window.location.reload()" placeholder="Womans Shoes">
+    <input onclick="window.open(fileMenswear);window.location.reload()" placeholder="Menswear">
     <input onclick="window.open(fileJewellery);window.location.reload()" placeholder="Jewellery">
     <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
     <input onclick="window.open(fileGifts);window.location.reload()" placeholder="Gifts">
