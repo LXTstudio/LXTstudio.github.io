@@ -11,22 +11,32 @@
       background-repeat: no-repeat;
       color: white;
       font-family: Palatino Linotype;
-      text-shadow: 2px 2px gray;
+      text-shadow: 3px 3px gray;
     }
-    p {
+    h1 {
+      font-size: 15px;
+      color: white;
+      background: none;
+    }
+    h2 {
       font-size: 150px;
       color: white;
       background: none;
     }
+    h3 {
+      font-size: 15px;
+      color: white;
+      background: none;
+    }
     input {
-      border: 10;
-      padding: 20px;
+      border: 2;
+      padding: 2px;
       font-size: 15px;
       text-align: center;
     }
     input[type="button"] {
-      background: white;
       color: white;
+      background: none;
     }
   </style>
 </head>
@@ -230,7 +240,7 @@ var fileWomanswear = my_arrayWomanswear[riWomanswear];
 
 
 
-var my_arrayWomenShoes = [
+var my_arrayWomensShoes = [
 
 " http://www.topshop.com/en/tsuk/category/shoes-430/shoes/N-8ewZqnpZdgl?No=0&Nrpp=20&siteId=%2F12556&cat2=208492  ",
 " http://www.asos.com/women/shoes/cat/?cid=4172 ",
@@ -244,10 +254,10 @@ var my_arrayWomenShoes = [
 " http://www.very.co.uk/women/shoes-boots/e/b/1665.end  "
 
 ];
-var riMWomensShoes = Math.floor(Math.random() * my_arrayWomenShoes.length); // Random Index position in the array
-document.getElementById("IntroAnimation").src = my_arrayWomenShoes[riMWomensShoes];
+var riMWomensShoes = Math.floor(Math.random() * my_arrayWomensShoes.length); // Random Index position in the array
+document.getElementById("IntroAnimation").src = my_arrayWomensShoes[riMWomensShoes];
 document.getElementById("IntroAnimation").src = fileWomansShoes;
-var fileWomansShoes = my_arrayWomenShoes[riMWomensShoes];
+var fileWomensShoes = my_arrayWomenShoes[riMWomensShoes];
 
 
 
@@ -442,16 +452,16 @@ var fileGifts = my_arrayGifts[riGifts];
 
   <p>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
-    <input onclick="window.open(fileWomansShoes);window.location.reload()" placeholder="Woman's Shoes">
+    <input onclick="window.open(fileWomensShoes);window.location.reload()" placeholder="Women's Shoes">
     <input onclick="window.open(fileMenswear);window.location.reload()" placeholder="Menswear">
     <input onclick="window.open(fileJewellery);window.location.reload()" placeholder="Jewellery">
     <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
     <input onclick="window.open(fileGifts);window.location.reload()" placeholder="Gifts">
   </p>
-  <p>The High Street. Online.</p>
+  <h2>The High Street. Online.</h2>
   <p>
     <input onclick="window.open(fileWomanswear);window.location.reload()" placeholder="Womanswear">
-    <input onclick="window.open(fileWomansShoes);window.location.reload()" placeholder="Woman's Shoes">
+    <input onclick="window.open(fileWomensShoes);window.location.reload()" placeholder="Women's Shoes">
     <input onclick="window.open(fileMenswear);window.location.reload()" placeholder="Menswear">
     <input onclick="window.open(fileJewellery);window.location.reload()" placeholder="Jewellery">
     <input onclick="window.open(fileFurniture);window.location.reload()" placeholder="Furniture">
