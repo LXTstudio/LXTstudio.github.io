@@ -9,14 +9,14 @@ body {
       font-size: 30px;
       color: white;
       background: black;
-      font-family: Arial;
+      font-family: Didot;
       text-shadow: 1px 1px gray;
     }
     h2 {
       font-size: 15px;
       color: gray;
       background: none;
-      font-family: Didot;
+      font-family: Arial;
       text-shadow: 1px 1px black;
     }
     h3 {
