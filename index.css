@@ -1,0 +1,52 @@
+body {
+      text-align: center;
+      background: url("http://i.imgur.com/oUyB0fD.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; 
+    }
+    h1 {
+      font-size: 30px;
+      color: white;
+      background: black;
+      font-family: Didot;
+      text-shadow: 1px 1px gray;
+    }
+    h2 {
+      font-size: 20px;
+      color: white;
+      background: none;
+      font-family: Didot;
+      text-shadow: 1px 1px black;
+    }
+    h3 {
+      font-size: 80px;
+      color: white;
+      background: none;
+      font-family: Didot;
+      text-shadow: 1px 1px gray;
+    }
+    h4 {
+      font-size: 20px;
+      color: white;
+      background: none;
+      font-family: Didot;
+      text-shadow: 1px 1px black;
+    }
+    h5 {
+      font-size: 30px;
+      color: white;
+      background: black;
+      font-family: Didot;
+      text-shadow: 1px 1px gray;
+    }
+      button {
+      border: 0;
+      padding: 5px;
+      font-size: 20px;
+      text-align: center;
+      color: white;
+      background: none;
+      font-family: Didot;
+      text-shadow: 1px 1px black;
+    }
