@@ -2,10 +2,32 @@
 <html> 
 <head>
   <title>TheHighStreet.Online</title>
+
+
+
+
+<!-- <style>
+.bg1 {
+background-image: url("http://imgur.com/wbfAVSf"); 
+}
+</style>
+
+<body id="page_body">
+
+<script>
+function changeBGImage(whichImage){
+     document.getElementById("page_body").className="bg"+whichImage;
+}
+</script> -->
+
+
+
+
   <style type="text/css">
+  
     body {
       text-align: center;
-      background: url("http://i.imgur.com/F0RWVGp.jpg");
+      background: url("http://imgur.com/oUyB0fD");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; 
@@ -64,6 +86,26 @@
 </div>
 
 <script type="text/javascript">
+
+
+
+
+function changeBGImage(){
+     document.body.background = "http://imgur.com/oUyB0fD";
+}
+function changeBackground() {
+    if (document.body.style.background = "http://imgur.com/wbfAVSf")
+    {
+        document.body.style.background = "http://imgur.com/oUyB0fD";
+    }
+    else
+    {
+        document.body.style.background = "http://imgur.com/wbfAVSf";
+    }
+}
+
+
+
 
 var my_arrayWomanswear = [
 
@@ -611,7 +653,7 @@ var fileGifts = my_arrayGifts[riGifts];
 </script>
 
   <h1>
-    <button type="button" onclick="window.open(fileWomanswear);window.location.reload()">Womanswear</button>
+    <button type="button" onclick="window.open(fileWomanswear);window.location.reload();changeBackground()">Womanswear</button>
     <button type="button" onclick="window.open(fileWomensShoes);window.location.reload()">Women's Shoes</button>
     <button type="button" onclick="window.open(fileMenswear);window.location.reload()">Menswear</button>
     <button type="button" onclick="window.open(fileJewellery);window.location.reload()">Jewellery</button>
