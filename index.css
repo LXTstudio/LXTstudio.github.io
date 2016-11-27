@@ -9,12 +9,12 @@ body {
       font-size: 30px;
       color: white;
       background: black;
-      font-family: Didot;
+      font-family: Arial;
       text-shadow: 1px 1px gray;
     }
     h2 {
       font-size: 15px;
-      color: white;
+      color: gray;
       background: none;
       font-family: Didot;
       text-shadow: 1px 1px black;
@@ -28,9 +28,9 @@ body {
     }
     h4 {
       font-size: 15px;
-      color: white;
+      color: gray;
       background: none;
-      font-family: Didot;
+      font-family: Arial;
       text-shadow: 1px 1px black;
     }
     h5 {
