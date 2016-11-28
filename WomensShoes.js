@@ -63,6 +63,4 @@ var my_arrayWomensShoes = [
 
 ];
 var riWomensShoes = Math.floor(Math.random() * my_arrayWomensShoes.length); 
-document.getElementById("randomStore").src = my_arrayWomensShoes[riWomensShoes];
-document.getElementById("randomStore").src = fileWomensShoes;
 var fileWomensShoes = my_arrayWomensShoes[riWomensShoes];

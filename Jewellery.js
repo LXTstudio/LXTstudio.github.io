@@ -66,6 +66,4 @@ var my_arrayJewellery = [
 
 ];
 var riJewellery = Math.floor(Math.random() * my_arrayJewellery.length);
-document.getElementById("randomStore").src = my_arrayJewellery[riJewellery];
-document.getElementById("randomStore").src = fileJewellery;
 var fileJewellery = my_arrayJewellery[riJewellery];

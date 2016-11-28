@@ -63,6 +63,4 @@ var my_arrayFurniture = [
 
 ];
 var riFurniture = Math.floor(Math.random() * my_arrayFurniture.length);
-document.getElementById("randomStore").src = my_arrayFurniture[riFurniture];
-document.getElementById("randomStore").src = fileFurniture;
 var fileFurniture = my_arrayFurniture[riFurniture];
