@@ -63,6 +63,6 @@ var my_arrayGifts = [
 
 ];
 var riGifts = Math.floor(Math.random() * my_arrayGifts.length); 
-document.getElementById("IntroAnimation").src = my_arrayGifts[riGifts];
-document.getElementById("IntroAnimation").src = fileGifts;
+document.getElementById("randomStore").src = my_arrayGifts[riGifts];
+document.getElementById("randomStore").src = fileGifts;
 var fileGifts = my_arrayGifts[riGifts];

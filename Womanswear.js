@@ -173,6 +173,6 @@ var my_arrayWomanswear = [
 
 ];
 var riWomanswear = Math.floor(Math.random() * my_arrayWomanswear.length); 
-document.getElementById("IntroAnimation").src = my_arrayWomanswear[riWomanswear];
-document.getElementById("IntroAnimation").src = fileWomanswear;
+document.getElementById("randomStore").src = my_arrayWomanswear[riWomanswear];
+document.getElementById("randomStore").src = fileWomanswear;
 var fileWomanswear = my_arrayWomanswear[riWomanswear];

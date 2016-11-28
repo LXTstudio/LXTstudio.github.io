@@ -64,6 +64,6 @@ var my_arrayMenswear = [
 
 ];
 var riMenswear = Math.floor(Math.random() * my_arrayMenswear.length);
-document.getElementById("IntroAnimation").src = my_arrayMenswear[riMenswear];
-document.getElementById("IntroAnimation").src = fileMenswear;
+document.getElementById("randomStore").src = my_arrayMenswear[riMenswear];
+document.getElementById("randomStore").src = fileMenswear;
 var fileMenswear = my_arrayMenswear[riMenswear];
