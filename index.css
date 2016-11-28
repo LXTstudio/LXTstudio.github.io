@@ -13,11 +13,11 @@ body {
       text-shadow: 1px 1px gray;
     }
     h2 {
-      font-size: 15px;
+      font-size: 10px;
       color: white;
       background: none;
       font-family: Didot;
-      text-shadow: 1px 1px white;
+      text-shadow: 1px 1px black;
     }
     h3 {
       font-size: 80px;
@@ -27,11 +27,11 @@ body {
       text-shadow: 1px 1px gray;
     }
     h4 {
-      font-size: 15px;
+      font-size: 10px;
       color: white;
       background: none;
       font-family: Didot;
-      text-shadow: 1px 1px white;
+      text-shadow: 1px 1px black;
     }
     h5 {
       font-size: 30px;
